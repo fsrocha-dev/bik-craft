@@ -1,0 +1,22 @@
+{
+  "name": "bikecraft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsrocha-dev/bike-craft.git"
+  },
+  "author": "Frank Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsrocha-dev/bike-craft/issues"
+  },
+  "homepage": "https://github.com/fsrocha-dev/bike-craft#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  }
+}
