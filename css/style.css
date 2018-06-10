@@ -49,6 +49,10 @@ p{
 	margin: 8px auto 40px auto;	
 }
 
+img{
+	display: block;
+}
+
 /* HEADER STYLES */
 .header{
 	position: fixed;
@@ -89,7 +93,7 @@ p{
 	height: 380px;
 	background: url("../img/bg.jpg") no-repeat center;
 	background-size: cover;
-	margin-top: 85px;
+	margin-top: 82px;
 	text-align: center;
 	padding-top: 80px;
 }
@@ -196,4 +200,52 @@ p{
 
 .portfolio .chamada p{
 	color: #FFF;
+}
+
+/* QUALIDADE STYLE */
+.qualidade{
+	padding: 60px 0;
+}
+
+.qualidade:after{
+	content: "";
+	width: 634px;
+	height: 83px;
+	display: block;
+	background: url("../img/linhas.png") no-repeat center;
+	position: absolute;
+	top: 209px;
+	right: 162px;
+	z-index: -1;
+}
+
+.qualidade img{
+	margin: 0 auto;
+}
+
+.qualidade_lista{
+	padding-top: 20px;
+}
+
+.qualidade_lista li{
+	text-align: center;
+	padding: 0 40px;
+}
+
+.qualidade_lista li h3{
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.qualidade_lista li h3:after{
+	content:"";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 6px auto;	
 }
