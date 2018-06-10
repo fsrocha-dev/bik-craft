@@ -46,7 +46,7 @@ p{
 	width: 60px;
 	height: 3px;
 	background: #000;
-	margin: 8px auto;	
+	margin: 8px auto 40px auto;	
 }
 
 /* HEADER STYLES */
@@ -136,7 +136,6 @@ p{
 .produtos_lista li{
 	background: #fec63e;
 	text-align: center;
-	margin-top: 40px;
 }
 
 .produtos_lista li h3{
@@ -166,12 +165,35 @@ p{
 	padding: 20px;
 }
 
-.chamada_produtos{
+.chamada{
 	text-align: center;
 	padding-top: 40px;
 	clear: both;
 }
 
-.chamada_produtos p{
+.chamada p{
 	margin-bottom: 25px;
+}
+
+/* PORTFÓLIO */
+.portfolio{
+	width: 100%;
+	background: #000;
+	padding: 40px 0;
+}
+
+.portfolio .sub_titulo{
+	color: #fec63e;
+}
+
+.portfolio .sub_titulo:after{
+	background: #fec63e;
+}
+
+.portfolio_lista li:last-child{
+	margin-top: 20px;
+}
+
+.portfolio .chamada p{
+	color: #FFF;
 }
